@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Lato&family=Merriweather&family=Nunito+Sans:opsz@6..12&family=Open+Sans&family=Raleway&display=swap');
+
+html{
+    font-size: 62.5%;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: 'AR One Sans', sans-serif;
+}
+
+body{
+    background-color: rgb(37, 36, 36);
+}
+
+img{
+    height: 2rem;
+    margin: 1rem;
+}
+.header{
+    font-size: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    span{
+        color: rgb(252, 168, 12);
+    }
+}
+
+.back-btn{
+    font-size: 2rem;
+    margin: 1rem;
+    cursor: pointer;
+    ion-icon{
+        color: rgb(252, 168, 12);
+    }
+}
+
+.loader{
+    transform: translate(-50%,-50%);
+}
+
+
+
+@media(width<500px){
+    .header{
+        font-size: 3rem;
+    }
+}
+
+@media(width<307px){
+    .header{
+        font-size: 2.5rem;
+        
+    }
+}
+
+@media(width<276px){
+    .header{
+        font-size: 2rem;
+        
+    }
+}
